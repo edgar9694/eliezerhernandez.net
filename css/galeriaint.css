@@ -1,0 +1,114 @@
+#div1 .front{
+  width: 500px;
+  position:absolute;
+    -webkit-transform: rotateY(0deg);
+  background-color:blue;
+  height:405px;
+  border-radius:5px;
+  -webkit-transition: -webkit-transform 2s;
+  -webkit-backface-visibility: hidden;
+}
+
+#div1 .back{
+  position:absolute;
+  width: 500px;
+  -webkit-transform: rotateY(180deg);
+  background-color:blue;
+  height:405px;
+  border-radius:5px;
+  -webkit-transition: -webkit-transform 2s;
+  -webkit-backface-visibility: hidden;
+}
+
+#div1:hover .front{
+  width: 500px;
+  background-color:blue;
+  height:405px;
+  border-radius:5px;
+  -webkit-transform: rotateY(180deg); /* Safari */
+}
+#div1:hover .back{
+  width: 500px;
+  background-color:blue;
+  height:405px;
+  border-radius:5px;
+  -webkit-transform: rotateY(0deg); /* Safari */
+}
+
+#div2 .front{
+  width: 500px;
+  position:absolute;
+    -webkit-transform: rotateY(0deg);
+  background-color:blue;
+  height:405px;
+  border-radius:5px;
+  -webkit-transition: -webkit-transform 2s;
+  -webkit-backface-visibility: hidden;
+}
+
+#div2 .back{
+  position:absolute;
+  width: 500px;
+  -webkit-transform: rotateY(180deg);
+  background-color:blue;
+  height:405px;
+  border-radius:5px;
+  -webkit-transition: -webkit-transform 2s;
+  -webkit-backface-visibility: hidden;
+}
+
+#div2:hover .front{
+  width: 500px;
+  background-color:blue;
+  height:405px;
+  border-radius:5px;
+  -webkit-transform: rotateY(180deg); /* Safari */
+}
+#div2:hover .back{
+  width: 500px;
+  background-color:blue;
+  height:405px;
+  border-radius:5px;
+  -webkit-transform: rotateY(0deg); /* Safari */
+}
+
+#fotos{
+  height:auto;
+  width: auto;
+  list-style-type:none;
+  text-align: center;
+}
+
+#videos{
+  height: auto;
+  width: auto;
+  list-style-type:none;
+  text-align: center;
+}
+
+#videos:hover{
+
+}
+
+
+#enlaces{
+    -webkit-transition: all 200ms cubic-bezier(0.390, 0.500, 0.150, 1.360);
+    -moz-transition: all 200ms cubic-bezier(0.390, 0.500, 0.150, 1.360);
+    -ms-transition: all 200ms cubic-bezier(0.390, 0.500, 0.150, 1.360);
+    -o-transition: all 200ms cubic-bezier(0.390, 0.500, 0.150, 1.360);
+    transition: all 200ms cubic-bezier(0.390, 0.500, 0.150, 1.360);
+    display: block;
+    height:81.1px;
+    text-decoration: none;
+    text-align: center;
+    font-size: 50px;
+}
+#enlaces.button {
+  color: rgba(30, 22, 54, 0.4);
+  box-shadow: rgba(30, 22, 54, 0.7) 0 0px 0px 1px inset;
+}
+
+#enlaces.button:hover {
+  color: rgba(0, 0, 0, 1);
+  box-shadow: rgba(30, 22, 54, 0.7) 0 0px 0px 50px inset;
+}

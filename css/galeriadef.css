@@ -1,0 +1,113 @@
+ul {
+ list-style: none;
+ }
+
+/************Structure**************/
+
+/*Grid*/
+.grid {
+	margin: 0 -1em;
+	overflow: hidden;
+}
+.grid:target {
+	-webkit-animation: fadeout 5s 1 ease-out;
+    -moz-animation: fadeout 5s 1 ease-out;
+    -o-animation: fadeout 5s 1 ease-out;
+    animation: fadeout 5s 1 ease-out;
+}
+.grid > section {
+	padding: 1em 0 0.5em 0;
+}
+.grid > section:target {
+	-webkit-animation: fadeout 5s 1 ease-out;
+    -moz-animation: fadeout 5s 1 ease-out;
+    -o-animation: fadeout 5s 1 ease-out;
+    animation: fadeout 5s 1 ease-out;
+}
+.grid ul {
+	overflow: hidden;
+}
+.grid ul li {
+	margin-bottom: 0.3em;
+}
+.pattern {
+	margin-bottom: 1em;
+	overflow: hidden;
+}
+
+.image-wrapper {
+  width: 250px;
+  height: 250px;
+  line-height: 250px; /* Line height matches div height */
+  float: center;
+  text-align: center; /* Horizontally centering the image */
+  background-color: #ddd;
+  overflow: hidden; /* Stops large images overflowing */
+  margin:0px auto;
+}
+
+.image-wrapper img {
+  vertical-align: middle; /* Vertical centering the image */
+  max-width: 100%; /* Allowing the image to fill the width or height if the image is equal or larger than the wrapper */
+  max-height: 100%;
+}
+
+#caja{
+ height: 300px;
+ width: 300px;
+ line-height: 300px; /* Line height matches div height */
+ float: left;
+ text-align: center; /* Horizontally centering the image */
+ background-color: #ddd;
+ overflow: hidden; /* Stops large images overflowing */
+ margin: 10px 5px 0 5px;
+}
+#cajav{
+ line-height: 300px; /* Line height matches div height */
+ float: center;
+ text-align: center; /* Horizontally centering the image */
+ background-color: #ddd;
+ overflow: hidden; /* Stops large images overflowing */
+ margin: 10px auto;
+}
+#imagengal{
+  margin: 40px auto;
+  vertical-align: middle; /* Vertical centering the image */
+  max-width: 100%; /* Allowing the image to fill the width or height if the image is equal or larger than the wrapper */
+  max-height: 100%;
+
+}
+#imagen{
+  vertical-align: middle; /* Vertical centering the image */
+  max-width: 100%; /* Allowing the image to fill the width or height if the image is equal or larger than the wrapper */
+  border: none;
+  max-height: 100%;
+}
+/******Media Queries*******/
+@media all and (min-width:40em) {
+	.grid ul li {
+		width: 50%;
+		float: left;
+	}
+	.grid ul li:nth-child(odd) {
+		padding-right: 1em;
+		clear: left;
+	}
+
+/* Large Screens */
+@media all and (min-width: 54em) {
+	.grid > section {
+		float: left;
+		width: 33.3333333%;
+	}
+	.grid > section:nth-of-type(3n+1) {
+		clear: left;
+	}
+	.grid ul li {
+		width: auto;
+		float: none;
+	}
+	.grid ul li:nth-child(odd) {
+		padding-right: 0;
+	}
+}
