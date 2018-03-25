@@ -16,7 +16,7 @@
     <div class="container-fluid" >
       <div class="container-fluid">
         <div>
-            <img src="imagenes/fondo2.png" class="img-responsive" width="50%" style="margin:10px auto;float:center"/>
+            <img src="administrador/imagenes/fondo2.png" class="img-responsive" width="50%" style="margin:10px auto;float:center"/>
         </div>
         <div id="nave" class="blend"><a href="login.php">Entrar</a></div>
       </div>

@@ -46,7 +46,7 @@
                       for ($i=0; $i<$Rows; $i++) {
                           $Auto = mysqli_fetch_assoc($images);
 
-                    echo "<img src='administrador/".$Auto['imagen']."' class='img-responsive' >";
+                    echo "<img src='http://placehold.it/800x534/673ab7/000000' class='img-responsive' >";
 
                     }
                   }
@@ -57,17 +57,18 @@
             <h3 style="text-align:center; text-decoration:underline">Biografía</h3>
             <br />
             <p style="text-align:justify">
-              Eliezer Hernández, es un fotógrafo y publicista venezolano, apasionado por la fotografía y las artes audiovisuales. Su característica fundamental es la búsqueda continúa de la excelencia en todo el servicio fotográfico y de video que ofrece en cada una de sus ramas.
-              <br />
-              <br />
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed quis lorem nec neque ornare pharetra. Sed sollicitudin eu risus ut rutrum. Integer vitae erat quis velit efficitur faucibus vel vitae est. Duis ut tellus vitae mi ullamcorper ultricies in quis mauris. Vivamus mattis eget magna nec ornare. Nam nec dui vitae eros facilisis euismod. Aliquam dignissim lorem et arcu tristique, vel malesuada lacus egestas. Interdum et malesuada fames ac ante ipsum primis in faucibus.
+              <br>
+              <br>
 
-        Eliezer Hernández Photography, nace en 2012 como una empresa orientada a la fotografía de eventos sociales y publicitaria, posterior a más de 5 años de trabajo y experiencia en el medio audiovisual.
-        <br />
-        <br />
-        Principalmente, Eliezer Hernández Photography representada en Eliezer Hernández y todo su equipo, persigue en cada evento social la combinación de 3 factores: la aplicación de amplias y reconocidas técnicas fotográficas, un concepto artístico definido según la personalidad de los clientes y la locación y el disfrute de todo el servicio por parte de sus clientes, ya que más que nada sabe que es un día "único" e inolvidable.
-        <br />
-        <br />
-        Cada producto final entregado, conlleva en sí mismo la garantía de un material audiovisual de altísima calidad artística.
+              Sed at varius quam. Cras cursus lorem erat. Donec ornare ullamcorper mollis. Nullam ultrices at sem consequat molestie. Integer a ullamcorper turpis. Vivamus in eros at erat suscipit volutpat. Proin at lobortis mauris, vitae auctor lacus. Nulla posuere, est a ornare blandit, lorem ipsum finibus orci, ut convallis sapien ante ac nisl. In hac habitasse platea dictumst. Proin tincidunt molestie mi, sed viverra leo dignissim eu.
+
+              <br>
+              <br>
+
+              Vestibulum tristique a mi consectetur varius. Vestibulum auctor mauris vitae interdum cursus. Etiam ornare fringilla suscipit. Mauris et sapien risus. Donec sed augue ipsum. In nec quam eu mi vehicula ultrices. Etiam vestibulum nibh eu metus dignissim, vitae tristique felis posuere. Cras semper, arcu sit amet rutrum aliquet, odio nisl tempus metus, a semper tortor tellus pharetra urna. Etiam dignissim lectus in velit volutpat ultrices. Proin luctus varius lobortis. Sed eleifend lectus eget risus maximus fringilla.
+
+
             </p>
 
           </div>

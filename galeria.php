@@ -15,7 +15,7 @@
     <div class="container-fluid" >
       <div class="container-fluid">
         <div>
-            <img src="imagenes/fondo2.png" class="img-responsive" width="50%" style="margin:10px auto;float:center"/>
+            <img src="administrador/imagenes/fondo2.png" class="img-responsive" width="50%" style="margin:10px auto;float:center"/>
         </div>
         <div id="nave" class="blend"><a href="login.php">Entrar</a></div>
       </div>
@@ -36,7 +36,7 @@
  <div class="row">
   <div class="col-md-3 col-sm-6 col-xs-12">
    <figure class="gal01">
-	<img src="administrador/imagenes/novias.jpg" alt="novias"/>
+	<img src="http://placehold.it/310x465/673ab7/000000" alt="novias"/>
 	  <div>
 	    <h3>Novias</h3>
 	  </div><a href="portafolio.php?id=novias"></a>
@@ -44,7 +44,7 @@
   </div>
   <div class="col-md-3 col-sm-6 col-xs-12" >
    <figure class="gal01">
-	<img src="administrador/imagenes/Novios.JPG" alt="novios"/>
+	<img src="http://placehold.it/310x465/673ab7/000000" alt="novios"/>
 	  <div>
 	    <h3>Novios</h3>
 	  </div><a href="portafolio.php?id=novios"></a>
@@ -52,7 +52,7 @@
   </div>
   <div class="col-md-3 col-sm-6 col-xs-12">
    <figure class="gal01">
-	<img src="administrador/imagenes/reportaje.jpg" alt="reportaje"/>
+	<img src="http://placehold.it/310x465/673ab7/000000" alt="reportaje"/>
 	  <div>
 	    <h3>Reportaje</h3>
 	  </div><a href="portafolio.php?id=reportaje"></a>
@@ -60,7 +60,7 @@
   </div>
   <div class="col-md-3 col-sm-6 col-xs-12" >
    <figure class="gal01">
-	<img src="administrador/imagenes/trash_the_dress.JPG" alt="trash the dress"/>
+	<img src="http://placehold.it/310x465/673ab7/000000" alt="trash the dress"/>
 	  <div>
 	    <h3>Trash The Dress</h3>
 	  </div><a href="portafolio.php?id=trash_the_dress"></a>
